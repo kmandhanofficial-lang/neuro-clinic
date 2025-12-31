@@ -25,7 +25,7 @@ export default function Footer() {
   return (
     <>
       {/* ===== FOOTER ===== */}
-      <footer className="relative bg-[#0A1F44] text-white mt-24">
+      <footer className="relative bg-[#0A1F44] text-white">
 
         {/* TOP CURVE */}
         <div className="absolute -top-1 left-0 w-full overflow-hidden leading-none">
