@@ -40,7 +40,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className="antialiased bg-white">
         <Header />
         <main className="pt-0">{children}</main>
         <Footer />
