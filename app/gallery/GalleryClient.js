@@ -19,6 +19,7 @@ export default function GalleryClient() {
   return (
     <>
       {/* ===== GALLERY BANNER (ABOUT STYLE) ===== */}
+      <div className="bg-white"> 
       <section className="w-full -mt-[80px]">
         <div className="relative w-full h-[600px] md:h-[650px] overflow-hidden">
           {/* GRADIENT */}
@@ -62,7 +63,7 @@ export default function GalleryClient() {
       </section>
 
       {/* ===== INTRO SECTION ===== */}
-      <section className="max-w-5xl mx-auto px-6 py-16 text-center">
+      <section className="max-w-5xl bg-white mx-auto px-6 py-16 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
           Engineering Excellence in Action
         </h2>
@@ -92,6 +93,7 @@ export default function GalleryClient() {
           ))}
         </div>
       </section>
+      </div>
 
       {/* ===== POPUP / LIGHTBOX ===== */}
       {activeImage && (
@@ -115,6 +117,7 @@ export default function GalleryClient() {
             />
           </div>
         </div>
+        
       )}
     </>
   );
